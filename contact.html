@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alice (Kui) — Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Your CSS (relative path) -->
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<header class="site-header">
+  <a class="logo" href="./index.html">
+    <img src="./images/png.png" alt="Alice's Virtual Solutions" height="34">
+  </a>
+
+  <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">☰</button>
+
+  <nav id="site-nav" class="site-nav" aria-label="Primary">
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./casestudies.html">Case Studies</a>
+    <a href="./contact.html">Contact</a>
+  </nav>
+</header>
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact • Start the Conversation</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1 class="hero-title">Start the Conversation</h1>
+    <p class="hero-text">
+      Scaling doesn’t have to feel chaotic. If you’re ready for calmer workflows,
+      clearer systems, and less operational noise. Let’s talk.
+    </p>
+  </section>
+
+  <!-- Connect Section with Background Image -->
+  <section class="connect">
+    <div class="connect__overlay">
+      <h2 class="subheading">How to Connect</h2>
+      <p>Here’s how we can get started:</p>
+      <ul class="list">
+        <li>Fill out the form below (quick + easy).</li>
+        <li>Or drop me a direct note at: <a href="mailto:wanguicheche2@gmail.com">wanguicheche2@gmail.com</a></li>
+        <li>Prefer async? Send me a Loom, I’ll reply in kind.</li>
+      </ul>
+      <p>
+        No pressure, no endless back-and-forth. Just clarity on whether we’re a fit 
+        and how I can help you reclaim time, structure, and peace of mind.
+      </p>
+
+      <!-- Contact Form -->
+      <h2 class="subheading">Contact Form</h2>
+      <p class="form-intro">
+        Tell me a little about you and what you’re building. I’ll respond within 2 business days — 
+        no pressure, just clarity on next steps.
+      </p>
+
+      <form action="https://formsubmit.co/wanguicheche2@gmail.com" method="POST">
+        <div class="field">
+          <label for="name">Your Name</label>
+          <input id="name" name="Name" type="text" required>
+        </div>
+
+        <div class="field">
+          <label for="email">Your Email</label>
+          <input id="email" name="Email" type="email" required>
+        </div>
+
+        <div class="field">
+          <label for="role">Your Role / Company (Optional)</label>
+          <input id="role" name="Role" type="text">
+        </div>
+
+        <div class="field">
+          <label for="support">What do you need support with?</label>
+          <input id="support" name="Support" type="text" required>
+        </div>
+
+        <div class="field">
+          <label for="message">Anything else you’d like to share?</label>
+          <textarea id="message" name="Message" rows="5"></textarea>
+        </div>
+
+        <!-- Hidden fields -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="New Website Inquiry">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="https://formsubmit.co/thank-you">
+
+        <button class="btn" type="submit">Let’s Connect</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq">
+    <div class="faq__inner">
+      <h1 class="faq__title">Frequently Asked Questions</h1>
+
+      <details class="faq__item">
+        <summary>Who do you usually work with?</summary>
+        <div class="faq__content">
+          I partner with visionary, mission-driven founders and leadership teams who need structure to scale.
+          Many are juggling multiple ventures, new product launches, or expanding teams and want calm, repeatable systems in place.
+        </div>
+      </details>
+
+      <details class="faq__item">
+        <summary>What kind of results can I expect?</summary>
+        <div class="faq__content">
+          Clearer workflows, less bottlenecking, and more breathing room for strategy.
+          On average, my clients reclaim 5–10 hours per week, reduce missed deadlines,
+          and see smoother team alignment across functions.
+        </div>
+      </details>
+
+      <details class="faq__item">
+        <summary>What services do you provide?</summary>
+        <div class="faq__content">
+          Fractional COO support, project management systems, workflow automation, SOPs, and client journey mapping.
+          Put simply: I build the backend that makes growth sustainable.
+        </div>
+      </details>
+
+      <details class="faq__item">
+        <summary>How do I know if we’re the right fit?</summary>
+        <div class="faq__content">
+          If you value precision and partnership, systems that keep people in the loop without micromanaging,
+          we’ll get along. A quick call will make it clear whether my frameworks match your current needs.
+        </div>
+      </details>
+    </div>
+  </section>
+
+ <!-- IMAGE STRIP -->
+<section class="photo-bar" aria-label="Personal photo gallery">
+  <div class="photo-bar__wrap">
+    <img src="images/working by the beach.jpg" alt="Relaxing outdoors" />
+    <img src="images/lamarina pier.jpg" alt="Pier by the water" />
+    <img src="images/workstation.jpg" alt="Lifestyle moment" />
+    <img src="images/love coffee.jpg" alt="Coffee view" />
+  </div>
+</section>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <p>© Alice (Kui)</p>
+  <nav class="footer-nav" aria-label="Footer Navigation">
+    <a href="/about.html">About</a>
+    <a href="/casestudies.html">Case Studies</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
+</footer>

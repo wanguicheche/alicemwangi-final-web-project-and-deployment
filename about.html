@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alice (Kui) — Portfolio</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Your CSS (relative path) -->
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<header class="site-header">
+  <a class="logo" href="./index.html">
+    <img src="./images/png.png" alt="Alice's Virtual Solutions" height="34">
+  </a>
+
+  <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">☰</button>
+
+  <nav id="site-nav" class="site-nav" aria-label="Primary">
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./casestudies.html">Case Studies</a>
+    <a href="./contact.html">Contact</a>
+  </nav>
+</header>
+
+
+<section class="hero-wrap" aria-labelledby="hero-name">
+  <div class="wrap">
+    <!-- Overlapped, word-wrapped name -->
+    <h1 id="hero-name" class="name-overlap">
+      <span class="line-top">HI, I M</span>
+      <span class="line-bottom">ALICE   MWANGI</span>
+    </h1>
+    <p class="aka">“KUI” IF YOU KNOW ME…</p>
+
+    <!-- Collage: main portrait, small ocean left, notebook right -->
+    <div class="collage" role="group" aria-label="Photo collage">
+      <figure class="photo main">
+        <img src="/images/headshot.jpg" alt="Alice headshot" />
+      </figure>
+
+      <figure class="photo left">
+        <img src="/images/oceanview.jpg" alt="oceanview" />
+      </figure>
+
+      <figure class="photo right">
+        <img src="/images/notebook.jpg" alt="Notebook - Make it happen" />
+      </figure>
+    </div>
+
+    <!-- Story (centered) -->
+    <div class="story">
+      <p>From retrenched during COVID (and expecting my third child) to Fractional COO helping mission-driven founders scale.</p>
+
+      <p>When I lost my job in 2020, fear and uncertainty hit hard. But instead of shutting down, I bet on myself. I started on Upwork as a virtual assistant, leaned on my background in operations, and invested every early dollar into becoming a Certified Asana Workflow Strategist.</p>
+
+      <p>My first client taught me hard lessons about boundaries. I reset, refined, and returned sharper—building long-term partnerships instead of one-off gigs.</p>
+
+      <p><em>Today, I design systems that let visionary founders breathe:</em></p>
+      <ul>
+        <li>Workflows that keep teams accountable without micromanagement</li>
+        <li>Automations that save hours and reduce noise</li>
+        <li>Investor-ready backends that free leaders to focus on vision</li>
+      </ul>
+
+      <p>Clients describe me as perceptive, proactive, and quietly confident—someone who brings structure without chaos and clarity without control.</p>
+
+      <p><strong>If you value both precision and partnership, you’ll feel at home here.</strong></p>
+
+      <div class="ctas">
+        <a class="btn primary" href="/contact.html">Let’s Chat</a>
+        <a class="btn ghost" href="/casestudies.html">Explore</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="glance2__divider" role="separator" aria-hidden="true"></div>
+
+<section class="glance2" aria-labelledby="glance2-title">
+  <div class="glance2__wrap">
+    <header class="glance2__header">
+      <h2 id="glance2-title">AT A GLANCE</h2>
+    </header>
+
+    <div class="glance2__grid">
+      <!-- LEFT: COPY -->
+      <div class="glance2__copy">
+        <article class="glance2__block">
+          <h3 class="eyebrow">WHAT I’M ABOUT</h3>
+          <p>Inviting God into every detail workflows, client calls, even the messy moments.</p>
+          <p>Helping founders feel calm in their businesses, not chained to endless to-do lists.</p>
+          <p>Quiet boldness calling things out with respect, clarity, and conviction.</p>
+        </article>
+
+        <article class="glance2__block">
+          <h3 class="eyebrow">WHAT HUMBLES ME</h3>
+          <p>Motherhood. Just when I think I’ve cracked the code boom new lessons, new grace required.</p>
+          <p>Freelancing. Every client, every project is both a system to build and a chance to grow.</p>
+        </article>
+
+        <article class="glance2__block">
+          <h3 class="eyebrow">WHAT I BELIEVE</h3>
+          <p>Success looks different for everyone, but for me it’s when my clients finally exhale because their systems are holding not them.</p>
+          <p>Strength doesn’t always shout. Sometimes it’s the quiet rhythm of showing up, doing the work, and speaking truth when it matters.</p>
+        </article>
+      </div>
+
+      <!-- RIGHT: PHOTO COLLAGE -->
+      <div class="glance2__photos" role="group" aria-label="Family photos">
+        <!-- Main: Kids (large) -->
+        <figure class="card kids">
+          <img src="/images/with kids at the beach.jpg" alt="With my kids at the beach" />
+        </figure>
+
+        <!-- Overlap: Couple (blurred background, sharp focus on center) -->
+        <figure class="card couple focus-blur" aria-label="Dinner with my husband">
+          <!-- blurred base -->
+          <img class="img-blur" src="/images/us.jpg" alt="Dinner with my husband (background softly blurred)" />
+          <!-- sharp circular focus (adjust center/size with CSS vars if needed) -->
+          <img class="img-focus" src="/images/us.jpg" alt="" aria-hidden="true" />
+        </figure>
+      </div>
+    </div>
+
+    <!-- DIVIDER + FUN FACTS -->
+    <div class="glance2__divider" role="separator" aria-hidden="true"></div>
+    <br><br>
+    <h3 class="funfacts__title">Fun Facts About Me</h3>
+    <div class="funfacts">
+      <p>I’m a budding software engineer, currently specializing in AI in software engineering at PowerLearn Project Africa. Never thought I’d say this, but I actually enjoy debugging now and I can casually drop terms like <em>git clone</em> and <em>fork the repo</em>. (Still feels surreal!)</p>
+      <p>My kids are my daily project managers always finding ways to test my patience and my scheduling systems.</p>
+      <p>Best productivity tool? Honestly, a clear mind and a good checklist. Everything else is just extra sparkle.</p>
+      <p>I believe boldness can be quiet sometimes it’s in the respectful “no” or the clarity of calling things what they are.</p>
+      <p>Favorite ritual: coffee before diving into dashboards. Always coffee.</p>
+    </div>
+  </div>
+</section>
+
+<!-- IMAGE STRIP -->
+<section class="photo-bar" aria-label="Personal photo gallery">
+  <div class="photo-bar__wrap">
+    <img src="images/by the pine tree.jpg" alt="Relaxing outdoors" />
+    <img src="images/lamarina pier.jpg" alt="Pier by the water" />
+    <img src="images/workstation.jpg" alt="Lifestyle moment" />
+    <img src="images/sunset.jpg" alt="Sunset view" />
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <p>© Alice (Kui)</p>
+  <nav class="footer-nav" aria-label="Footer Navigation">
+    <a href="/about.html">About</a>
+    <a href="/casestudies.html">Case Studies</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
+</footer>
+
+
