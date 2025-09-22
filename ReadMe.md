@@ -1,71 +1,90 @@
-# 🌐 Alice (Kui) – Portfolio Website  
+# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
 
-This is my personal **portfolio project**, built as part of the **Power Learn Project (PLP) Final Assignment**.  
-It showcases my journey, services, case studies, and fun facts — all styled with my personal brand colors and fonts.  
+You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
 
----
-
-## 📌 Project Overview  
-- **Goal**: Create a professional multipage portfolio website.  
-- **Tech Stack**:  
-  - HTML5  
-  - CSS3  
-  - JavaScript  
-- **Fonts**: Playfair Display & Montserrat  
-- **Brand Colors**:  
-  - Teal `#245d68`, `#007d83`, `#4a989a`  
-  - Accent shades: `#afb3b4`, `#a49fa5`, `#d1aeac`, `#10406e`  
+This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
 
 ---
 
-## 📂 Project Structure  
+## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
 
-PLP-FINAL PROJECT & DEPLOYMENT/
-│── index.html # Home page
-│── about.html # About page
-│── case-studies.html # Case studies page
-│── contact.html # Contact page
-│── styles.css # Global styling
-│── script.js # Animations / interactions
-│── images/ # All project images & assets
-│── README.md # Project documentation
-│── .gitignore # Git ignored files
+Before you write any code, take time to plan:
 
+* Define your website's purpose (portfolio, product showcase, blog, etc.)
+* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
+* Sketch or describe the layout of each page
+* Map out internal navigation (how pages link to one another)
+
+**Goal:** Show intentional structure and user journey across the site.
 
 ---
 
-## ✨ Features  
-- Responsive navigation bar (teal background, white links).  
-- Hero section with background image (fills half the viewport).  
-- About section with story-driven copy and personal headshot.  
-- Case study section with clickable CTA.  
-- Fun facts section with **grid layout** and JS animations.  
-- Footer with quick links.  
+## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+
+Using your plan, begin building:
+
+* Use HTML5 for semantic structure
+* Apply CSS for responsive layout, styling, and animations
+* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+
+Each page should:
+
+* Be mobile-responsive
+* Share a consistent layout/header/footer
+* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
+
+**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
 
 ---
 
-## 🚀 Deployment  
+## 🛠️🚀 Part 3: Best Practices for Code Organization
 
-This project will be deployed via **GitHub Pages**.  
+Before deployment, refactor your project to follow production-friendly practices:
 
-1. Push project to GitHub:  
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/your-username/your-repo.git    *change this*
-   git push -u origin main
+* Organize files in folders (`/css`, `/js`, `/images`, etc.)
+* Write clean, modular, and commented code
+* Use meaningful file names and relative paths
+* Validate your HTML/CSS and test on different screen sizes
 
-On GitHub, go to:
-Settings > Pages > Deploy from branch > main > root.
+**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
 
-Your site will be live at:
-https://your-username.github.io/your-repo/  - * change this*
+---
 
+## 🌐🚀 Part 4: Introduction to Hosting and Deployment
 
-Author
-Alice Kui – Fractional COO | Certified Asana Workflow Strategist | Budding Software Engineer
+Once your project is complete, choose a method to **host your site online**.
 
-License
-This project is licensed under the MIT License.
+You can use:
+
+* **GitHub Pages** (great for portfolios and static sites)
+* **Netlify** (powerful CI/CD features and easy form support)
+* **Vercel** (lightning-fast deployment for frontend projects)
+
+Deploy your project and confirm that:
+
+* All links and scripts work
+* It loads properly on mobile and desktop
+* It has a clear, shareable URL
+
+**Goal:** Publish your work online and make it accessible to the world.
+
+---
+
+## Deliverables
+
+1. A GitHub repository containing:
+
+   * Your complete project code, properly organized
+   * A `README.md` file explaining your project purpose, structure, and live URL
+2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+
+---
+
+## Outcome
+
+* Clarity and thoroughness of planning documentation
+* Proper use of HTML5, CSS, and JavaScript across multiple pages
+* Responsive and accessible design
+* Clean, well-organized, and commented code
+* Successful live deployment with a working link
+* Evidence of following best practices
